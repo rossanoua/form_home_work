@@ -1,0 +1,33 @@
+
+h4{
+    position: relative;
+    margin: 0;
+    width:57px;
+    top:-16px;
+    left:10px;
+    background-color: white;
+}
+
+fieldset{
+    margin:40px;
+    display: flex;
+    flex-flow: column nowrap;
+    border-radius: 5px;
+    position: absolute;
+}
+
+div{
+    margin:10px;
+}
+
+label, input{
+    align-self:flex-start;
+}
+
+fieldset .inner{
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+}
+
+/*border:1px dotted #333;*/
